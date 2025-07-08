@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Gaming Dashboard</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+</head>
+<body>
+  <div class="dashboard">
+    <aside class="sidebar">
+      <h1 class="logo">Game<span>Hub</span></h1>
+      <nav class="menu">
+        <a href="#">Dashboard</a>
+        <a href="#">Matches</a>
+        <a href="#">Guides</a>
+        <a href="#">Shop</a>
+        <a href="#">Settings</a>
+      </nav>
+    </aside>
+
+    <main class="main-section">
+      <header class="topbar">
+        <input type="text" placeholder="Search games..." class="search-bar" />
+        <div class="user-profile">
+          <img src="WhatsApp Image 2025-07-08 at 19.00.13_9d62e09b.jpg" alt="User" />
+        </div>
+      </header>
+
+      <section class="hero">
+        <h2>Welcome Back, Gamer</h2>
+        <p>Choose your battlefield and start playing!</p>
+        <button class="start-btn">Launch Game</button>
+      </section>
+      <section class="game-cards">
+  <h2 class="section-title">Your Games</h2>
+  <div class="cards-container">
+    <div class="game-card">
+      <img src="WhatsApp Image 2025-07-08 at 19.00.11_293ae771.jpg" alt="Game 1">
+      <div class="game-info">
+        <h3>Call of Battle</h3>
+        <p>Kills: 120 | Wins: 12</p>
+      </div>
+    </div>
+
+    <div class="game-card">
+      <img src="WhatsApp Image 2025-07-08 at 19.00.16_dd5de689.jpg" alt="Game 2">
+      <div class="game-info">
+        <h3>Cyber Warrior</h3>
+        <p>Kills: 98 | Wins: 8</p>
+      </div>
+    </div>
+
+    <div class="game-card">
+      <img src="WhatsApp Image 2025-07-08 at 19.00.17_959fb6b0.jpg" alt="Game 3">
+      <div class="game-info">
+        <h3>FortKnight</h3>
+        <p>Kills: 145 | Wins: 15</p>
+      </div>
+    </div>
+    <div class="game-card">
+      <img src="WhatsApp Image 2025-07-08 at 19.00.16_4580739a.jpg" alt="Game 4">
+      <div class="game-info">
+        <h3>Call of Battle</h3>
+        <p>Kills: 120 | Wins: 12</p>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="leaderboard-section">
+  <div class="leaderboard-container">
+    <!-- Leaderboard -->
+    <div class="leaderboard">
+      <h2 class="section-title">Top Players</h2>
+      <ul class="leaderboard-list">
+        <li>
+          <span class="rank">#1</span>
+          <img src="IMG-20250708-WA0042.jpg" alt="Player 1">
+          <span class="name">ShadowKing</span>
+          <span class="score">2,450 pts</span>
+        </li>
+        <li>
+          <span class="rank">#2</span>
+          <img src="IMG-20250708-WA0049.jpg" alt="Player 2">
+          <span class="name">BlazeRider</span>
+          <span class="score">2,150 pts</span>
+        </li>
+        <li>
+          <span class="rank">#3</span>
+          <img src="IMG-20250708-WA0050.jpg" alt="Player 3">
+          <span class="name">GhostX</span>
+          <span class="score">1,920 pts</span>
+        </li>
+      </ul>
+    </div>
+
+    <!-- Friends List -->
+    <div class="friends-list">
+      <h2 class="section-title">Friends</h2>
+      <ul class="friends">
+        <li>
+          <img src="IMG-20250708-WA0044.jpg" alt="Friend 1">
+          <span class="friend-name">PhoenixFire</span>
+          <span class="status online">●</span>
+          <button class="invite-btn">Invite</button>
+        </li>
+        <li>
+          <img src="IMG-20250708-WA0046.jpg" alt="Friend 2">
+          <span class="friend-name">SilentSniper</span>
+          <span class="status offline">●</span>
+          <button class="invite-btn" disabled>Offline</button>
+        </li>
+        <li>
+          <img src="IMG-20250708-WA0047.jpg" alt="Friend 3">
+          <span class="friend-name">DarkAngel</span>
+          <span class="status online">●</span>
+          <button class="invite-btn">Invite</button>
+        </li>
+      </ul>
+    </div>
+  </div>
+</section>
+<section class="guides-section">
+  <h2 class="section-title">Latest Game Guides</h2>
+  <div class="guides-container">
+    <div class="guide-card">
+      <img src="WhatsApp Image 2025-07-08 at 19.22.42_07970cb5.jpg" alt="Guide 1" />
+      <div class="guide-content">
+        <h3>Mastering Battle Royale</h3>
+        <p>Tips and tricks to become a pro in any battle royale game. Learn movement, loot strategies, and more.</p>
+        <button class="read-more">Read More</button>
+      </div>
+    </div>
+
+    <div class="guide-card">
+      <img src="WhatsApp Image 2025-07-08 at 19.22.41_46211af8.jpg "alt="Guide 2" />
+      <div class="guide-content">
+        <h3>Top 5 Weapons Ranked</h3>
+        <p>Check out the top-rated weapons this season based on player stats and pro feedback.</p>
+        <button class="read-more">Read More</button>
+      </div>
+    </div>
+
+    <div class="guide-card">
+      <img src="WhatsApp Image 2025-07-08 at 19.22.41_50263745.jpg" alt="Guide 3" />
+      <div class="guide-content">
+        <h3>How to Win More Duels</h3>
+        <p>Improve your reaction time, aim accuracy, and timing to dominate in 1v1 scenarios.</p>
+        <button class="read-more">Read More</button>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="guild-section">
+  <h2 class="section-title">Your Guild</h2>
+  <div class="guild-container">
+    <div class="guild-card">
+      <img src="images/player1.png" alt="Player 1" />
+      <div class="guild-info">
+        <h3>ShadowKing</h3>
+        <p>Role: Sniper</p>
+        <p>Kills: 325</p>
+      </div>
+    </div>
+
+    <div class="guild-card">
+      <img src="images/player2.png" alt="Player 2" />
+      <div class="guild-info">
+        <h3>BlazeRider</h3>
+        <p>Role: Frontline</p>
+        <p>Kills: 412</p>
+      </div>
+    </div>
+
+    <div class="guild-card">
+      <img src="images/player3.png" alt="Player 3" />
+      <div class="guild-info">
+        <h3>NightWolf</h3>
+        <p>Role: Support</p>
+        <p>Kills: 198</p>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="store-section">
+  <h2 class="section-title">Game Store</h2>
+  <div class="store-container">
+    <div class="store-item">
+      <img src="images/skin1.jpg" alt="Skin 1">
+      <h3>Shadow Blade</h3>
+      <p>Epic Katana Skin</p>
+      <div class="price-section">
+        <span class="price">900 CP</span>
+        <button class="buy-btn">Buy</button>
+      </div>
+    </div>
+
+    <div class="store-item">
+      <img src="images/skin2.jpg" alt="Skin 2">
+      <h3>Crimson Pulse</h3>
+      <p>Animated Rifle Skin</p>
+      <div class="price-section">
+        <span class="price">1200 CP</span>
+        <button class="buy-btn">Buy</button>
+      </div>
+    </div>
+
+    <div class="store-item">
+      <img src="images/skin3.jpg" alt="Skin 3">
+      <h3>Ghost Pack</h3>
+      <p>Bundle - 3 items</p>
+      <div class="price-section">
+        <span class="price">1800 CP</span>
+        <button class="buy-btn">Buy</button>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="match-history">
+  <h2 class="section-title">Recent Matches</h2>
+  <div class="match-container">
+    <div class="match-card win">
+      <img src="images/map1.jpg" alt="Map 1">
+      <div class="match-info">
+        <h3>Neo Arena</h3>
+        <p>Kills: 18 | Deaths: 4</p>
+        <span class="result">WIN</span>
+      </div>
+    </div>
+
+    <div class="match-card loss">
+      <img src="images/map2.jpg" alt="Map 2">
+      <div class="match-info">
+        <h3>Shadow Pit</h3>
+        <p>Kills: 5 | Deaths: 9</p>
+        <span class="result">LOSS</span>
+      </div>
+    </div>
+
+    <div class="match-card win">
+      <img src="images/map3.jpg" alt="Map 3">
+      <div class="match-info">
+        <h3>Crystal Core</h3>
+        <p>Kills: 13 | Deaths: 6</p>
+        <span class="result">WIN</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+    </main>
+    <footer class="footer">
+  <div class="footer-content">
+    <h2>Game<span>Hub</span></h2>
+    <p>Level up your experience. Join the community now!</p>
+
+    <div class="social-icons">
+      <a href="#"><i class="fab fa-discord"></i></a>
+      <a href="#"><i class="fab fa-twitter"></i></a>
+      <a href="#"><i class="fab fa-youtube"></i></a>
+    </div>
+
+    <p class="copy">© 2025 GameHub. All rights reserved.</p>
+  </div>
+</footer>
+
+  </div>
+  
+</body>
+</html>
