@@ -1,42 +1,41 @@
-# GameHub
+# Game_hub
+# 🎮 GameHub - Gaming Dashboard UI
 
-GameHub is a static gaming dashboard interface built with HTML and CSS. It presents a futuristic concept for browsing game-related stats, matches, guides, and community content.
+Welcome to **GameHub**, a futuristic gaming dashboard interface built using pure **HTML** and **CSS**.  
+This project includes leaderboard stats, recent matches, in-game store, and polished animations for a smooth user experience.
 
-**Live site:** [gamehub348.netlify.app](https://gamehub348.netlify.app/)
+link-https://gamehub348.netlify.app/
 
-## Features
+---
 
-- Dashboard layout with sidebar navigation
-- Game cards, leaderboard, and friends list
-- Match history, game guides, and team profiles
-- Store-style section for game items
-- Animated page elements and hover effects
-- Responsive styling
+## 🚀 Features
 
-The displayed content is part of a front-end UI demonstration; the repository does not include a game-data service or account backend.
+- 🔹 Sidebar with Navigation
+- 🔹 Hero Section with Call-to-Action
+- 🔹 Game Cards showing stats
+- 🔹 Leaderboard & Friends List
+- 🔹 Latest Game Guides
+- 🔹 Team/Guild Profiles
+- 🔹 Game Store (Weapons/Skins)
+- 🔹 Recent Match History
+- 🔹 Animated Loading Screen
+- 🔹 Scroll Animations using AOS
+- 🔹 Glowing hover effects
+- 🔹 Particle.js Animated Background
+- 🔹 Responsive Design Ready (Optional)
 
-## Technology
+---
 
-- HTML
-- CSS
-- AOS (Animate on Scroll)
-- Font Awesome icons
+🎯 Future Scope
+Add Firebase/Auth for user login
 
-## Run Locally
+Game data fetched from API
 
-There is no build step or package installation. Clone the repository and open `index.html` in a browser. If you prefer, serve the repository root with a static web server.
+Responsive media queries for mobile
 
-## Project Structure
+Theme toggle (Dark/Light mode)
 
-```text
-.
-├── index.html
-├── style.css
-└── README.md
-```
+🙌 Credits
+Designed & Developed by [Divyank Singh]
+Inspired by futuristic gaming UIs 🎮
 
-Image assets are stored in the repository root.
-
-## Project Status
-
-This is a front-end prototype. Potential extensions include connecting live game data, adding authentication, and refining smaller-screen layouts.
