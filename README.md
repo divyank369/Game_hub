@@ -1,41 +1,36 @@
-# Game_hub
-# 🎮 GameHub - Gaming Dashboard UI
+# GameHub
 
-Welcome to **GameHub**, a futuristic gaming dashboard interface built using pure **HTML** and **CSS**.  
-This project includes leaderboard stats, recent matches, in-game store, and polished animations for a smooth user experience.
+A gaming dashboard UI concept built with HTML and CSS. The page presents a fictional player's games and stats in a dark, image-rich layout.
 
-link-https://gamehub348.netlify.app/
+**Live demo:** [gamehub348.netlify.app](https://gamehub348.netlify.app/)
 
----
+## What’s Inside
 
-## 🚀 Features
+- Sidebar navigation and a dashboard header
+- Hero area with a game launch call to action
+- Game cards with sample match statistics
+- Local image assets used throughout the interface
+- Responsive viewport metadata and custom styling
 
-- 🔹 Sidebar with Navigation
-- 🔹 Hero Section with Call-to-Action
-- 🔹 Game Cards showing stats
-- 🔹 Leaderboard & Friends List
-- 🔹 Latest Game Guides
-- 🔹 Team/Guild Profiles
-- 🔹 Game Store (Weapons/Skins)
-- 🔹 Recent Match History
-- 🔹 Animated Loading Screen
-- 🔹 Scroll Animations using AOS
-- 🔹 Glowing hover effects
-- 🔹 Particle.js Animated Background
-- 🔹 Responsive Design Ready (Optional)
+## Built With
 
----
+- HTML5
+- CSS3
+- Font Awesome icons
+- AOS styles for scroll animation support
 
-🎯 Future Scope
-Add Firebase/Auth for user login
+## Run Locally
 
-Game data fetched from API
+Open `index.html` in a browser, or serve the repository folder with any static web server. There is no package installation or build process.
 
-Responsive media queries for mobile
+## Structure
 
-Theme toggle (Dark/Light mode)
+```text
+.
+├── index.html   # Dashboard markup
+├── style.css    # Layout and visual styling
+├── *.jpg        # Dashboard imagery
+└── README.md
+```
 
-🙌 Credits
-Designed & Developed by [Divyank Singh]
-Inspired by futuristic gaming UIs 🎮
-
+GameHub is a static UI prototype. The displayed games, profile, and statistics are sample content and are not connected to a gaming account or backend.
